@@ -25,8 +25,8 @@ export type Fact = {
   description?: string;
 };
 
+// Bildfilen kommer automatiskt från mappen.
 export type GalleryItem = {
-  image: string;
   title?: string;
   caption?: string;
   text?: string;
@@ -40,6 +40,8 @@ export type Building = {
   };
 
   facts: Fact[];
+
+  galleryFolder: string;
 
   gallery: GalleryItem[];
 };
