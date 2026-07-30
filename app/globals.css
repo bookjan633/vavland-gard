@@ -24,3 +24,67 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ===========================
+
+   Vävland Gård Theme
+
+=========================== */
+
+:root{
+
+  --linen:#F7F3EC;
+
+  --forest:#294434;
+
+  --text:#2F2F2F;
+
+  --muted:#6F6F6F;
+
+  --gold:#B89C69;
+
+}
+
+html{
+
+  scroll-behavior:smooth;
+
+}
+
+body{
+
+  background:var(--linen);
+
+  color:var(--text);
+
+  font-family:var(--font-body);
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+  font-family:var(--font-heading);
+
+}
+/* ==========================================
+
+   Home page layout
+
+========================================== */
+
+@media (min-width: 1024px) {
+
+  .home-layout {
+
+    display: grid;
+
+    grid-template-columns: 260px 760px 260px;
+
+    gap: 1rem;
+
+    justify-content: center;
+
+    align-items: start;
+
+}
+
+}
