@@ -1,6 +1,29 @@
 import BuildingPage from "@/components/buildings/BuildingPage";
+
 import { nedreBostadshus } from "@/data/buildings/nedre-bostadshus";
 
-export default function Page() {
-  return <BuildingPage building={nedreBostadshus} />;
+import { client } from "@/sanity/lib/client";
+
+import { pageQuery } from "@/sanity/lib/queries";
+
+export default async function Page() {
+
+  const cmsPage = await client.fetch(pageQuery, {
+
+    slug: "nedre-bostadshus",
+
+  });
+
+  return (
+
+    <BuildingPage
+
+      building={nedreBostadshus}
+
+      cmsPage={cmsPage}
+
+    />
+
+  );
+
 }

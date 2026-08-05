@@ -17,7 +17,7 @@ export const page = {
       "Den vackra mangårdsbyggnaden på Övre Gården erbjuder ett rymligt och modernt boende där gårdens historiska charm möter dagens moderna komfort. Invändigt har huset genomgått en totalrenovering, vilket skapat ett hem med hög modern standard samtidigt som den ursprungliga karaktären har bevarats. Allt trä i huset såsom golv, tak, golvlister, taklister, träpanel, fönsterfoder etc. – är sågat och hyvlat på gården av egen skog.",
 
     text:
-      "Under generationer har huset varit ett hem för människor som levt nära naturen. Idag erbjuder byggnaden en unik möjlighet att förena historisk charm med ett modernt boende.",
+      "",
   },
 
   featureImage: {

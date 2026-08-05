@@ -3,7 +3,23 @@ import Link from "next/link";
 import SideCard from "./SideCard";
 import { homepage, cards } from "../../data/homepage";
 
-export default function HomeGrid() {
+type HomePageData = {
+
+  title?: string;
+
+  lead?: string;
+
+};
+
+export default function HomeGrid({
+
+  homePage,
+
+}: {
+
+  homePage?: HomePageData;
+
+}) {
   const leftCards = cards.slice(0, 4);
   const rightCards = cards.slice(4, 8);
 
@@ -18,7 +34,7 @@ export default function HomeGrid() {
           </p>
 
           <h1 className="text-6xl font-semibold tracking-[0.08em] text-[#2F2F2F] md:text-7xl">
-            {homepage.title}
+            {homePage?.title ?? homepage.title}
           </h1>
 
           <h2 className="mt-8 text-2xl font-light text-stone-700 md:text-3xl">
@@ -26,7 +42,7 @@ export default function HomeGrid() {
           </h2>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-stone-600">
-            {homepage.intro}
+            {homePage?.lead ?? homepage.intro}
           </p>
         </header>
 

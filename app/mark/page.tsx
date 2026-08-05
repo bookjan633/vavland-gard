@@ -1,6 +1,29 @@
 import BuildingPage from "@/components/buildings/BuildingPage";
+
 import { mark } from "@/data/buildings/mark";
 
-export default function Page() {
-  return <BuildingPage building={mark} />;
+import { client } from "@/sanity/lib/client";
+
+import { pageQuery } from "@/sanity/lib/queries";
+
+export default async function Page() {
+
+  const cmsPage = await client.fetch(pageQuery, {
+
+    slug: "mark",
+
+  });
+
+  return (
+
+    <BuildingPage
+
+      building={mark}
+
+      cmsPage={cmsPage}
+
+    />
+
+  );
+
 }

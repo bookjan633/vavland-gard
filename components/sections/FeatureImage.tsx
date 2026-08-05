@@ -1,15 +1,20 @@
 import Image from "next/image";
+import { PortableText } from "@portabletext/react";
+import type { PortableTextBlock } from "@portabletext/types";
+
 
 type FeatureImageProps = {
   image: string;
   alt: string;
   caption?: string;
+  body?: PortableTextBlock[];
 };
 
 export default function FeatureImage({
   image,
   alt,
   caption,
+  body,
 }: FeatureImageProps) {
   return (
     <section className="bg-[#F7F3EC] py-24">
@@ -24,13 +29,17 @@ export default function FeatureImage({
           />
         </div>
 
-        {caption && (
-          <div className="mx-auto mt-10 max-w-3xl text-center">
-            <p className="text-lg italic leading-8 text-stone-600">
-              {caption}
-            </p>
-          </div>
-        )}
+        <div className="mx-auto mt-10 max-w-3xl text-center text-lg leading-8 text-stone-600">
+          {body ? (
+            <PortableText value={body} />
+          ) : (
+            caption && (
+              <p className="italic">
+                {caption}
+              </p>
+            )
+          )}
+        </div>
       </div>
     </section>
   );
