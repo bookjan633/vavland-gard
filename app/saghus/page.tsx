@@ -1,3 +1,7 @@
+export const dynamic = "force-dynamic";
+
+export const fetchCache = "force-no-store";
+
 import BuildingPage from "@/components/buildings/BuildingPage";
 
 import { saghus } from "@/data/buildings/saghus";
