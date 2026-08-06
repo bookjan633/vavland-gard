@@ -8,7 +8,7 @@ export const nedreBostadshus: Building = {
       title: "NEDRE BOSTADSHUS",
       subtitle:
         "Ett charmigt bostadshus med närhet till gårdens hjärta.",
-      details: "1800-talet • ca 160 m² • 6 rum",
+      details: "1800-talet • ca 325 m² • 9 rum",
     },
 
     intro: {
