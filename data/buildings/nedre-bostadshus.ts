@@ -25,30 +25,35 @@ export const nedreBostadshus: Building = {
       image: "/images/cards/nedre-bostadshus.jpg",
       alt: "Nedre bostadshuset",
       caption:
-        "Det nedre bostadshuset ligger vackert placerat med närhet till gårdens öppna ytor och övriga byggnader.",
+        "Det nedre bostadshuset ligger vackert placerat med närhet till gårdens öppna ytor och övriga byggnader. Renoveringar: Fasad ommålat 2025, Hall till övre våningen 2025, Badrum övre våningen totalrenoverat 2023, Nytt balkonggolv samt balkongräcke 2026.",
     },
   },
 
   facts: [
     {
-      label: "Byggår",
-      value: "1800-tal",
-      description: "Traditionell gårdsbebyggelse",
+      label: "Byggnadstyp",
+      value: "2-plansvilla",
+      description: "timmerstomme med delvis källare och pannrum",
     },
     {
       label: "Boyta",
-      value: "ca 160 m²",
+      value: "ca 325 m²",
       description: "Praktisk planlösning",
     },
     {
       label: "Rum",
-      value: "6",
+      value: "9",
       description: "Flera användningsmöjligheter",
     },
     {
-      label: "Läge",
-      value: "Timrå",
-      description: "Västernorrlands län",
+      label: "Uppvärmning",
+      value: "Jordvärme",
+      description: "samt Vedpanna och ackumulatortankar",
+    },
+    {
+      label: "Vatten & Avlopp",
+      value: "Kommunalt",
+      description: "",
     },
   ],
 
