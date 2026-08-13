@@ -52,7 +52,7 @@ export const cards = [
 
   {
     id: "bilgarage",
-    title: "Bilgarage",
+    title: "Garage",
     image: "/images/cards/bilgarage.jpg",
     href: "/bilgarage",
   },

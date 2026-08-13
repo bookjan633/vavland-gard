@@ -5,7 +5,7 @@ export const bilgarage: Building = {
     hero: {
       image: "/images/cards/bilgarage.jpg",
       eyebrow: "Vävland Gård",
-      title: "BILGARAGE",
+      title: "GARAGE",
       subtitle:
         "Ett rymligt garage med plats för fordon, maskiner och förvaring.",
       details: "Garage • Förråd • Flexibel användning",
@@ -15,7 +15,7 @@ export const bilgarage: Building = {
       eyebrow: "Ekonomibyggnad",
       title: "Praktiskt och mångsidigt",
       intro:
-        "Bilgaraget erbjuder gott om utrymme för både personbilar, mindre maskiner och förvaring. Byggnaden är lättillgänglig från gårdsplanen och kompletterar gårdens övriga ekonomibyggnader.",
+        "Garaget erbjuder gott om utrymme för både personbilar, mindre maskiner och förvaring. Byggnaden är lättillgänglig från gårdsplanen och kompletterar gårdens övriga ekonomibyggnader.",
 
       text:
         "Utöver garagefunktion lämpar sig byggnaden även som verkstad, hobbylokal eller lager. Den flexibla utformningen gör att den enkelt kan anpassas efter framtida behov.",
@@ -25,7 +25,7 @@ export const bilgarage: Building = {
       image: "/images/cards/bilgarage.jpg",
       alt: "Bilgarage",
       caption:
-        "Bilgaraget erbjuder praktiska ytor för både fordon och annan utrustning.",
+        "Garaget erbjuder praktiska ytor för både fordon och annan utrustning.",
     },
   },
 
