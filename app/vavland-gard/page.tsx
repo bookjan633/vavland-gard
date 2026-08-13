@@ -9,7 +9,7 @@ export default function VavlandGardPage() {
     <main className="min-h-screen bg-[#F7F3EC]">
 
       <HeroBanner
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         title="VÄVLAND GÅRD"
         subtitle="Två sekel av historia"
         eyebrow="Sedan början av 1800-talet"
@@ -35,7 +35,7 @@ export default function VavlandGardPage() {
       <FeatureSection
         title="Historien"
         text="Vävland Gård har utvecklats under mer än två sekel och bär fortfarande spår av de människor som levt och verkat här. Byggnader, landskap och miljö berättar tillsammans historien om en levande gård där tradition och framtid möts."
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         imageAlt="Historien om Vävland Gård"
         href="/historien"
         buttonText="Läs historien"
@@ -45,7 +45,7 @@ export default function VavlandGardPage() {
       <FeatureSection
         title="Bostadshuset"
         text="Gårdens bostadshus erbjuder generösa sällskapsytor, klassiska detaljer och en varm atmosfär. Här möts traditionell byggnadskultur och moderna möjligheter för ett bekvämt boende."
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         imageAlt="Bostadshuset"
         href="/bostadshuset"
         buttonText="Utforska bostadshuset"
@@ -55,7 +55,7 @@ export default function VavlandGardPage() {
       <FeatureSection
         title="Ekonomibyggnader"
         text="Fastigheten omfattar flera stora ekonomibyggnader med stor utvecklingspotential. Byggnaderna lämpar sig för såväl traditionell användning som nya verksamheter."
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         imageAlt="Ekonomibyggnader"
         href="/ekonomibyggnader"
         buttonText="Utforska byggnaderna"
@@ -65,7 +65,7 @@ export default function VavlandGardPage() {
       <FeatureSection
         title="Mark & Skog"
         text="De generösa markområdena erbjuder ett varierat landskap med öppna ytor, skog och natur. Här finns möjligheter för både rekreation och framtida utveckling."
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         imageAlt="Mark och skog"
         href="/mark-skog"
         buttonText="Utforska markerna"
@@ -75,7 +75,7 @@ export default function VavlandGardPage() {
       <FeatureSection
         title="Livet på gården"
         text="Vävland Gård erbjuder en livsstil där lugn, natur och historia samspelar. Här finns plats för familjeliv, företagande eller ett liv närmare naturen."
-        image="/images/hero/hero.jpg"
+        image="/images/hero/hero2.jpg"
         imageAlt="Livet på gården"
         href="/livet-pa-garden"
         buttonText="Upptäck livet på gården"

@@ -7,7 +7,7 @@ export const page = {
     title: "Bostadshus Övre Gården",
     subtitle:
       "Välkommen till Vävlandsgårds Övre mangårdsbyggnad – ett hem där gedigen historia möter modern komfort. Här har en total invändig renovering skapat ett ljust och funktionellt boende med generösa sällskapsytor, samtidigt som husets själ och karaktär har bevarats.",
-    details: "1800-talet • ca 287 m² • 7 rum • 4 sovrum",
+    details: "1800-talet • ca 287 m² • 7 rum • 4-5 sovrum",
   },
 
   intro: {

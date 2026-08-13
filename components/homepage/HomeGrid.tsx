@@ -71,7 +71,7 @@ export default function HomeGrid({
   <div className="relative aspect-[16/10]">
 
     <Image
-      src="/images/hero/hero.jpg"
+      src="/images/hero/hero2.jpg"
       alt="Vävland Gård"
       fill
       priority

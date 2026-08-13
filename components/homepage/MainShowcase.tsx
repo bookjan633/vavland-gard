@@ -17,7 +17,7 @@ export default function MainShowcase() {
         {/* Mitten */}
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="/images/hero/hero.jpg"
+            src="/images/hero/hero2.jpg"
             alt="Vävland Gård"
             className="w-full h-full object-cover"
           />

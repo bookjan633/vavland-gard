@@ -8,7 +8,7 @@ export const maskinhall: Building = {
       title: "MASKINHALL",
       subtitle:
         "En rymlig byggnad med stora möjligheter för maskiner, förvaring och verksamhet.",
-      details: "Stor maskinhall • Flera portar • God takhöjd",
+      details: "Stor maskinhall med förråd på övervåningen • fem portar",
     },
 
     intro: {
@@ -31,19 +31,29 @@ export const maskinhall: Building = {
 
   facts: [
     {
-      label: "Typ",
-      value: "Maskinhall",
-      description: "Ekonomibyggnad",
+      label: "Byggnadstyp",
+      value: "Maskinhall med förråd",
+      description: "Ekonomibyggnad med förråd på övre plan",
     },
     {
-      label: "Portar",
-      value: "Flera",
+      label: "Yta",
+      value: "304 m²",
       description: "Enkel in- och utfart",
     },
     {
-      label: "Takhöjd",
-      value: "Generös",
-      description: "Passar större maskiner",
+      label: "Portar",
+      value: "5",
+      description: "Bredd: 3.5 meter Höjd: 3.7 meter",
+    },
+    {
+      label: "Uppvärmning",
+      value: "Borrad bergvärme",
+      description: "Golvvärme",
+    },
+    {
+      label: "Vatten/Avlopp",
+      value: "Kommunalt",
+      description: "",
     },
     {
       label: "Användning",

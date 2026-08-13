@@ -31,24 +31,34 @@ export const bilgarage: Building = {
 
   facts: [
     {
-      label: "Typ",
-      value: "Garage",
-      description: "Ekonomibyggnad",
+      label: "Byggnadstyp",
+      value: "Garage med två lägenheter",
+      description: "Ekonomibyggnad med två lägenheter övre plan",
     },
     {
-      label: "Kapacitet",
-      value: "Flera fordon",
+      label: "Yta",
+      value: "130 m²",
       description: "Rymliga ytor",
+    },
+    {
+      label: "Portar",
+      value: "Fyra",
+      description: "Bredd: 3.0 meter Höjd: 2.5 meter",
+    },
+    {
+      label: "Uppvärmning",
+      value: "Borrad bergvärme",
+      description: "golvvärme",
     },
     {
       label: "Användning",
       value: "Flexibel",
-      description: "Garage • Verkstad • Förråd",
+      description: "Garage flera fordon • Verkstad • Boende",
     },
     {
-      label: "Läge",
-      value: "Gårdsplan",
-      description: "Lättillgängligt",
+      label: "Vatten/Avlopp",
+      value: "Kommunalt",
+      description: "",
     },
   ],
 

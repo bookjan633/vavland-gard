@@ -31,14 +31,9 @@ export const saghus: Building = {
 
   facts: [
     {
-      label: "Typ",
-      value: "Såghus",
+      label: "Byggnadstyp",
+      value: "Såghus; Såg, Hyvleri samt Snickeri",
       description: "Historisk ekonomibyggnad",
-    },
-    {
-      label: "Användning",
-      value: "Flera möjligheter",
-      description: "Verkstad • Förråd • Utställning",
     },
     {
       label: "Karaktär",
@@ -49,6 +44,21 @@ export const saghus: Building = {
       label: "Kulturvärde",
       value: "Högt",
       description: "Del av gårdens historia",
+    },
+    {
+      label: "Yta",
+      value: "182 m²",
+      description: "Rymliga ytor",
+    },
+    {
+      label: "Uppvärmning",
+      value: "Snickeri isolerat  elradiator",
+      description: "såg samt hyvleri oisolerat ouppvärmt",
+    },
+    {
+      label: "Användning",
+      value: "Flera möjligheter",
+      description: " Såg • Hyvleri • Snickeri",
     },
   ],
 

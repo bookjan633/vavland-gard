@@ -12,7 +12,7 @@ export const mark: Building = {
 
     intro: {
       eyebrow: "Fastigheten",
-      title: "Natur och möjligheter",
+      title: "Mark, Natur och möjligheter",
       intro:
         "Fastigheten omfattar både åkermark, skogsmark och öppna naturytor som tillsammans skapar en attraktiv och varierad miljö.",
 
@@ -31,7 +31,12 @@ export const mark: Building = {
     {
       label: "Markslag",
       value: "Blandad",
-      description: "Åker och skog",
+      description: "Åker, gräsmattor och skog",
+    },
+    {
+      label: "Yta",
+      value: "13,5 ha",
+      description: "Åker, gräsmattor och skog",
     },
     {
       label: "Användning",

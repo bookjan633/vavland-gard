@@ -29,24 +29,29 @@ export const forradsbyggnad: Building = {
 
   facts: [
     {
-      label: "Typ",
+      label: "Byggnadstyp",
       value: "Förråd",
       description: "Ekonomibyggnad",
     },
     {
+      label: "Yta",
+      value: "182 m²",
+      description: "Rymliga ytor",
+    },
+    {
+      label: "Portar",
+      value: "Fyra skjutdörrar",
+      description: "Varav två sektioner med genomfart",
+    },
+    {
+      label: "Uppvärmning",
+      value: "Ej uppvärmt",
+      description: "",
+    },
+    {
       label: "Användning",
-      value: "Lager",
-      description: "Förvaring",
-    },
-    {
-      label: "Placering",
-      value: "Gårdscentrum",
-      description: "Lättillgänglig",
-    },
-    {
-      label: "Flexibilitet",
-      value: "Hög",
-      description: "Många användningsområden",
+      value: "Flexibel",
+      description: "Förråd • Maskiner • Vedbod",
     },
   ],
 
