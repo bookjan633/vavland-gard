@@ -131,12 +131,14 @@ export default function HomeGrid({
               </blockquote>
 
               <div className="mt-10 flex justify-center">
-                <Link
-                  href="/kontakt"
-                  className="rounded-full bg-[#294434] px-10 py-3 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-[#1f3327] hover:scale-105"
-                >
-                  {homepage.button}
-                </Link>
+                <a
+  href="https://www.erikolsson.se/homes/Gard-Vavlandsvagen-15-Timra-Timra-kommun-5973633?utm_source=hemnet.se&utm_medium=referral&utm_campaign=Hemnet_bostadsannons"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full bg-[#294434] px-10 py-3 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-[#1f3327] hover:scale-105"
+>
+  {homepage.button}
+</a>
               </div>
 
             </div>
