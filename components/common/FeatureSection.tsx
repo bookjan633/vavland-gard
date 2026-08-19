@@ -47,12 +47,14 @@ export default function FeatureSection({
             {text}
           </p>
 
-          <Link
-            href={href}
-            className="mt-10 inline-flex rounded-full bg-[#294434] px-8 py-3 text-white transition hover:scale-105"
-          >
-            {buttonText} →
-          </Link>
+          {buttonText && (
+  <Link
+    href={href}
+    className="rounded-full bg-[#294434] px-8 py-3 text-white transition hover:scale-105"
+  >
+    {buttonText}
+  </Link>
+)}
         </div>
 
         {/* Bild höger */}

@@ -17,14 +17,10 @@ export default function VavlandGardPage() {
 
       <PageIntro
         title="Två sekel av historia"
-        lead="Vävland Gård är en plats där historien fortfarande lever. Omgiven av öppna landskap, skogar och ett rikt kulturlandskap erbjuder gården en ovanlig kombination av tidlös charm och framtida möjligheter."
+        lead="Vävland Gård har vuxit fram under mer än 200 år och har sedan dess förvaltats av samma släkt genom generationer."
       >
         <p>
-          Här finns flera bostadshus, stora ekonomibyggnader,
-          generösa markområden och en miljö som under generationer
-          utvecklats med omsorg. Fastigheten lämpar sig lika väl som
-          privat bostad, generationsboende eller för den som vill
-          utveckla verksamhet på landsbygden.
+          Den långsiktiga omsorgen märks än idag i de välbevarade byggnaderna, det gedigna hantverket och den sammanhållna gårdsmiljön. Här möts historia och nutid på ett sätt som skapar en genuin känsla och ett kulturarv som fortfarande lever vidare.
         </p>
 
         <blockquote className="border-l-4 border-[#B18A46] pl-8 text-3xl italic text-stone-700">
@@ -33,52 +29,53 @@ export default function VavlandGardPage() {
       </PageIntro>
 
       <FeatureSection
-        title="Historien"
-        text="Vävland Gård har utvecklats under mer än två sekel och bär fortfarande spår av de människor som levt och verkat här. Byggnader, landskap och miljö berättar tillsammans historien om en levande gård där tradition och framtid möts."
-        image="/images/hero/hero2.jpg"
+        title="Boenden"
+        text="Vävland Gård erbjuder fem boenden fördelade på två bostadshus och två fristående lägenheter, vilket skapar ovanligt stor flexibilitet för familjeliv, generationsboende, gäster eller uthyrning. Husen präglas av gedigna materialval och ett omsorgsfullt hantverk, där virke från den egna skogen har sågats och förädlats i gårdens eget såghus och snickeri. Resultatet är trivsamma hem med en varm och genuin karaktär."
+        image="/images/gallery/boenden.jpg"
         imageAlt="Historien om Vävland Gård"
         href="/historien"
-        buttonText="Läs historien"
+        buttonText=""
         imageRight
-      />
-
-      <FeatureSection
-        title="Bostadshuset"
-        text="Gårdens bostadshus erbjuder generösa sällskapsytor, klassiska detaljer och en varm atmosfär. Här möts traditionell byggnadskultur och moderna möjligheter för ett bekvämt boende."
-        image="/images/hero/hero2.jpg"
-        imageAlt="Bostadshuset"
-        href="/bostadshuset"
-        buttonText="Utforska bostadshuset"
-        imageRight={false}
       />
 
       <FeatureSection
         title="Ekonomibyggnader"
-        text="Fastigheten omfattar flera stora ekonomibyggnader med stor utvecklingspotential. Byggnaderna lämpar sig för såväl traditionell användning som nya verksamheter."
-        image="/images/hero/hero2.jpg"
-        imageAlt="Ekonomibyggnader"
-        href="/ekonomibyggnader"
-        buttonText="Utforska byggnaderna"
-        imageRight
-      />
-
-      <FeatureSection
-        title="Mark & Skog"
-        text="De generösa markområdena erbjuder ett varierat landskap med öppna ytor, skog och natur. Här finns möjligheter för både rekreation och framtida utveckling."
-        image="/images/hero/hero2.jpg"
-        imageAlt="Mark och skog"
-        href="/mark-skog"
-        buttonText="Utforska markerna"
+        text="De många ekonomibyggnaderna är en av Vävland Gårds stora tillgångar. Maskinhall, garagebyggnad, såghus, förråd, historiska härbren och övriga byggnader erbjuder tillsammans en ovanligt komplett anläggning med stora möjligheter för företagande, skogsbruk, entreprenad, hantverk, förvaring eller annan verksamhet. Här finns både funktion, kvalitet och utrymme att utveckla nya idéer."
+        image="/images/gallery/Ekonomibyggnader.jpg"
+        imageAlt="Bostadshuset"
+        href="/bostadshuset"
+        buttonText=""
         imageRight={false}
       />
 
       <FeatureSection
-        title="Livet på gården"
-        text="Vävland Gård erbjuder en livsstil där lugn, natur och historia samspelar. Här finns plats för familjeliv, företagande eller ett liv närmare naturen."
+        title="Mark & omgivningar"
+        text="Fastigheten omfattar skogsmark, öppna gräsytor och en rofylld gårdsmiljö där naturen alltid finns nära. Samtidigt nås Timrå centrum, Sundsvall, Midlanda Airport, E4, tågstation, skolor och service inom bekvämt avstånd. Kombinationen av avskildhet och tillgänglighet gör Vävland Gård till en plats där det är enkelt att förena livskvalitet med arbete och vardag."
+        image="/images/cards/mark.jpg"
+        imageAlt="Ekonomibyggnader"
+        href="/ekonomibyggnader"
+        buttonText=""
+        imageRight
+      />
+
+      <FeatureSection
+        title="En gård – många möjligheter"
+        text="Vävland Gård erbjuder en ovanlig kombination av historia, boende, verksamhet och utvecklingsmöjligheter. Med fem boenden, omfattande ekonomibyggnader och en väl sammanhållen gårdsmiljö finns utmärkta 
+förutsättningar för generationsboende, uthyrning, företagande, skogsbruk, entreprenad eller annan verksamhet. Samtidigt är detta en plats för den som söker lugn, närhet till naturen och friheten att forma gården efter egna visioner."
         image="/images/hero/hero2.jpg"
         imageAlt="Livet på gården"
         href="/livet-pa-garden"
-        buttonText="Upptäck livet på gården"
+        buttonText=""
+      imageRight={false}
+      />
+      <FeatureSection
+        title="Livet på Vävland Gård"
+        text="Livet på Vävland Gård handlar om mer än byggnader och mark. Här finns utrymme att leva i ett lugnare tempo, skapa, utveckla och förverkliga idéer i en miljö där natur, historia och framtid samspelar. Efter mer än två sekel av omsorg och utveckling väntar nu ett nytt kapitel – en möjlighet för nästa ägare att ta vid och låta gårdens historia fortsätta.
+"
+        image="/images/ovre-bostadshus/ovre19.jpg"
+        imageAlt="Livet på gården"
+        href="/livet-pa-garden"
+        buttonText=""
         imageRight
       />
 
