@@ -29,9 +29,15 @@ export default function HomeGrid({
 
         {/* Header */}
         <header className="mt-[80px] mb-10 text-center">
-          <p className="mb-4 text-sm uppercase tracking-[0.35em] text-stone-500">
-            {homepage.tagline}
-          </p>
+          <div className="mb-8 flex items-center justify-center">
+  <div className="h-px w-32 bg-stone-400" />
+
+  <span className="mx-6 text-lg font-medium uppercase tracking-[0.50em] text-stone-600">
+    Till salu
+  </span>
+
+  <div className="h-px w-32 bg-stone-400" />
+</div>
 
           <h1 className="text-6xl font-semibold tracking-[0.08em] text-[#2F2F2F] md:text-7xl">
             {homePage?.title ?? homepage.title}

@@ -9,11 +9,12 @@ export default function VavlandGardPage() {
     <main className="min-h-screen bg-[#F7F3EC]">
 
       <HeroBanner
-        image="/images/hero/hero2.jpg"
-        title="VÄVLAND GÅRD"
-        subtitle="Två sekel av historia"
-        eyebrow="Sedan början av 1800-talet"
-      />
+  image="/images/hero/hero2.jpg"
+  title="VÄVLAND GÅRD"
+  subtitle="Två sekel av historia"
+  eyebrow="Sedan början av 1800-talet"
+  saleBadge
+/>
 
       <PageIntro
         title="Två sekel av historia"

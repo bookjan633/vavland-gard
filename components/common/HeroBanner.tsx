@@ -6,6 +6,7 @@ type HeroBannerProps = {
   subtitle: string;
   eyebrow?: string;
   details?: string;
+  saleBadge?: boolean;
 };
 
 export default function HeroBanner({
@@ -14,7 +15,9 @@ export default function HeroBanner({
   subtitle,
   eyebrow,
   details,
+  saleBadge,
 }: HeroBannerProps) {
+
   return (
     <section className="relative h-[72vh] min-h-[520px] max-h-[820px] overflow-hidden">
 
@@ -42,6 +45,13 @@ export default function HeroBanner({
               {eyebrow}
             </p>
           )}
+          {saleBadge && (
+  <div className="mb-6">
+    <span className="border-y border-white/50 py-2 text-sm font-medium uppercase tracking-[0.45em] text-white">
+      Till salu
+    </span>
+  </div>
+)}
 
           <h1 className="text-5xl font-light tracking-[0.14em] md:text-7xl">
             {title}
