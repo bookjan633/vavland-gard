@@ -10,6 +10,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
     },
     {
+      url: `${base}/vavland-gard`,
+      priority: 0.9,
+    },
+    {
       url: `${base}/ovre-bostadshus`,
       priority: 0.9,
     },
@@ -42,18 +46,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
   ];
-}
-När sidan deployats kommer denna automatiskt att finnas på:
-https://www.vavlandgard.se/sitemap.xml
-3. Skapa app/robots.ts
-import { MetadataRoute } from "next";
-
-export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
-    sitemap: "https://www.vavlandgard.se/sitemap.xml",
-  };
 }
