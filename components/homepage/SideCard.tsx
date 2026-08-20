@@ -49,16 +49,15 @@ active:translate-y-[1px]
   className="
     mt-2
     text-sm
-    tracking-wider
-    text-white/90
-    opacity-0
-    transition-all
+    font-medium
+    tracking-[0.2em]
+    text-white
+    transition-transform
     duration-300
     group-hover:translate-x-1
-    group-hover:opacity-100
   "
 >
-  Utforska →
+  Läs mer →
 </p>
         </div>
       </div>

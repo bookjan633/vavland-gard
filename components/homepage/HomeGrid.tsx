@@ -32,9 +32,9 @@ export default function HomeGrid({
           <div className="mb-8 flex items-center justify-center">
   <div className="h-px w-32 bg-stone-400" />
 
-  <span className="mx-6 text-lg font-medium uppercase tracking-[0.50em] text-stone-600">
-    Till salu
-  </span>
+  <span className="mx-6 text-xl font-medium uppercase tracking-[0.50em] text-stone-600">
+  Till salu
+</span>
 
   <div className="h-px w-32 bg-stone-400" />
 </div>
@@ -104,27 +104,37 @@ export default function HomeGrid({
 
     {/* Hover-text */}
     <div
-      className="
-        absolute
-        inset-0
-        flex
-        items-center
-        justify-center
-        opacity-0
-        transition-all
-        duration-500
-        group-hover:opacity-100
-      "
-    >
+  className="
+    absolute
+    inset-0
+    flex
+    items-center
+    justify-center
+    transition-all
+    duration-500
+  "
+>
+      
       <div className="text-center text-white">
-        <h3 className="text-4xl font-light tracking-[0.15em]">
-          VÄVLAND GÅRD
-        </h3>
+  <h3 className="text-4xl font-light tracking-[0.15em]">
+    VÄVLAND GÅRD
+  </h3>
 
-        <p className="mt-4 text-lg tracking-[0.2em] uppercase">
-          Läs mer →
-        </p>
-      </div>
+  <p
+    className="
+      mt-4
+      text-lg
+      font-medium
+      tracking-[0.2em]
+      text-white/95
+      transition-transform
+      duration-300
+      group-hover:translate-x-1
+    "
+  >
+    Läs mer →
+  </p>
+</div>
     </div>
 
   </div>
