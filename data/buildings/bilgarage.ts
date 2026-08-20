@@ -7,8 +7,8 @@ export const bilgarage: Building = {
       eyebrow: "Vävland Gård",
       title: "GARAGE",
       subtitle:
-        "Ett rymligt garage med plats för fordon, maskiner och förvaring.",
-      details: "Garage • Förråd • Flexibel användning",
+        "Ett rymligt garage med plats för fordon, maskiner och förvaring samt två boenden på övre plan.",
+      details: "Garage • Boende • Flexibel användning",
     },
 
     intro: {
